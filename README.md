@@ -1,7 +1,2 @@
-# ManrajGrover.github.io
-My GitHub Pages
-
-## Todo
-
-- [ ] Create a simple page linking to different projects
-- [ ] Show demos of SingleDivProject
+# manrajgrover.github.io
+Code powering my current website. For getting code for blog, please see the [blog](https://github.com/manrajgrover/blog) repo.

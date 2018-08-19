@@ -8,6 +8,13 @@
 #introduction {
   font-size: 8em;
 }
+a {
+  color: #2a9c97;
+}
+a:hover {
+  color: rgb(46, 173, 169);
+  text-decoration: none;
+}
 .typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;

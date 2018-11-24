@@ -1,7 +1,70 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+  color: #222;
+}
+
 .container {
   font-size: 62.5%;
+  padding: 0% 10%;
+  opacity: 1;
 }
-.vertical-center {
+
+.header-font {
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.strong-font {
+  font-size: 2.7em;
+  font-weight: 900;
+}
+
+/* Introduction */
+.intro {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+[class*='fadein'] {
+  opacity: 0;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadein-0 {
+  animation: 0.5s ease-in 0s fadein;
+  animation-fill-mode: forwards;
+}
+
+.fadein-1 {
+  animation: 0.5s ease-in 1s fadein;
+  animation-fill-mode: forwards;
+}
+
+/* Introduction ends */
+
+.fadein-2 {
+  animation: 0.5s ease-in 2s fadein;
+  animation-fill-mode: forwards;
+}
+
+.fadein-3 {
+  animation: 0.5s ease-in 3s fadein;
+  animation-fill-mode: forwards;
+}
+
+/* .vertical-center {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -216,4 +279,4 @@ a:hover {
     height: 50%;
     border-radius: 50%;
   }
-}
+} */

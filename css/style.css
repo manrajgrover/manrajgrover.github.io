@@ -2,7 +2,13 @@
   font-size: 62.5%;
 }
 .vertical-center {
-  margin-top: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 90%;
   font-family: "Open Sans", sans-serif;
 }
 #introduction {
@@ -63,7 +69,14 @@ a:hover {
 }
 .social-links {
   padding-top: 7%;
+  max-width: 800px;
 }
+@media (min-width: 993px) {
+  .social-links-container {
+    margin-right: 10px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .social-links {
     padding-top: 0%;
@@ -72,18 +85,19 @@ a:hover {
     font-size: 7em;
   }
 }
-.social-links-container {
-  margin-left: -2%;
-}
 
 @media (max-width: 992px) {
   .social-links-container {
-    margin-left: 0%;
+    margin-top: 2%;
+  }
+  .social-links {
+    margin-left: 8%;
+    margin-right: 8%;
   }
 }
 .social-links li {
   display: inline-block;
-  width: 9em;
+  width: 7em;
   height: 50%;
   border-radius: 50%;
 }
@@ -117,8 +131,14 @@ a:hover {
 .social-links .googleplus {
   background-color: rgb(220, 78, 65);
 }
-.social-links .blog {
+.social-links .email {
+  background-color: rgb(220, 78, 65);
+}
+.social-links .medium {
   background-color: rgb(0, 0, 0);
+}
+.social-links .blog {
+  background-color: rgb(34, 12, 103);
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .typed-cursor {
@@ -127,10 +147,6 @@ a:hover {
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
     font-size: 3vw;
-  }
-  .vertical-center {
-    margin-top: 2%;
-    font-family: "Open Sans", sans-serif;
   }
   .profile {
     margin: 0 auto;
@@ -169,10 +185,6 @@ a:hover {
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
     font-size: 5.3vw;
-  }
-  .vertical-center {
-    margin-top: 2%;
-    font-family: "Open Sans", sans-serif;
   }
   .profile {
     margin: 0 auto;

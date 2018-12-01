@@ -13,4 +13,10 @@ $(document).ready(function() {
     $(this).hide();
     answer.show().addClass("expand-0-5");
   });
+  $('.show-extra-info').on('click', function () {
+    $(this).hide();
+
+    var extraInfoId = $(this).data('expand-id');
+    $('#' + extraInfoId).show().addClass('expand-0-5');
+  });
 });

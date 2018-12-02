@@ -192,6 +192,7 @@ section {
 }
 .question:hover {
   background-color: rgba(171, 171, 171, 0.2);
+  transition: 0.3s linear;
 }
 .answer {
   display: none;

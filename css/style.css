@@ -1,7 +1,11 @@
 html, body {
-  margin: 0;
+  margin: 0px;
 }
+html {
+  position: relative;
+  min-height: 100%;
 
+}
 body {
   background-color: #ffffff;
   color: #222;
@@ -134,7 +138,7 @@ section {
 /* Social media */
 
 .social-links {
-  padding-top: 7%;
+  padding-top: 6em;
   margin: 0;
 }
 .social-links li {
@@ -203,7 +207,7 @@ section {
 
 .footer {
   background-image: linear-gradient(to bottom, #ffffff, #d6d6d6, #afafaf, #8a8a8a, #666666);
-  height: 25em;
+  height: 28em;
   color: #dadada;
   margin-top: 8em;
 }
@@ -217,4 +221,151 @@ section {
 }
 .copyright {
   margin-top: 9em;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .header-font {
+    font-size: 4em;
+  }
+  .strong-font {
+    font-size: 3em;
+  }
+  .social-links li {
+    width: 4em;
+  }
+}
+
+@media only screen and (min-width: 772px) and (max-width: 992px) {
+  .header-font {
+    font-size: 4em;
+  }
+  .strong-font {
+    font-size: 3em;
+  }
+  .container {
+    padding: 0em 1em;
+  }
+  .social-links li {
+    width: 3.7em;
+  }
+  .footer {
+    height: 28em;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 772px) {
+  .header-font {
+    font-size: 3.1em;
+  }
+  .strong-font {
+    font-size: 2.5em;
+  }
+  .container {
+    padding: 0em;
+  }
+  .social-links li {
+    width: 2.5em;
+  }
+  .copyright {
+    margin-top: 17em;
+    font-size: 0.8em;
+  }
+  .footer {
+    height: 28em;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  .header-font {
+    font-size: 2em;
+  }
+  .strong-font {
+    font-size: 1.6em;
+  }
+  .container {
+    padding: 0em 1em;
+  }
+  .social-links {
+    padding-top: 5em;
+  }
+  .social-links li {
+    width: 1.7em;
+  }
+  .copyright {
+    margin-top: 20em;
+    font-size: 0.7em;
+  }
+  .social-links-container {
+    padding: 0px;
+  }
+  .show-extra-info {
+    padding: 0px;
+    line-height: 20px;
+  }
+  section {
+    margin-top: 5vw;
+  }
+  section .row {
+    margin-top: 2vw!important;
+  }
+  section.qa .row {
+    margin-top: 0vw!important;
+  }
+  .question {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    margin-bottom: 500px;
+  }
+  .header-font {
+    font-size: 4.5vw;
+  }
+  .strong-font {
+    font-size: 3.5vw;
+  }
+  .show-extra-info {
+    line-height: 0px;
+    padding: 1px;
+    margin-left: 0px;
+  }
+  .question {
+    padding: 0px;
+    line-height: 6vw;
+  }
+  .answer p {
+    margin-bottom: 2.5vw;
+  }
+  .container {
+    padding: 0em 2vw;
+    word-spacing: 2px;
+  }
+  section {
+    margin-top: 5vw;
+  }
+  section .row {
+    margin-top: 2vw!important;
+  }
+  section.qa .row {
+    margin-top: 0vw!important;
+  }
+  .social-links li {
+    width: 6.7vw;
+  }
+  .copyright {
+    margin-top: 6em;
+    font-size: 3vw;
+  }
+  .social-links-container {
+    padding: 0px;
+  }
+  .footer {
+    height: 260px;
+    margin-top: 2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
 }

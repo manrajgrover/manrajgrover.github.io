@@ -29,7 +29,7 @@ body {
 }
 
 .strong-font {
-  font-size: 3.7em;
+  font-size: 3em;
   font-weight: 900;
 }
 
@@ -52,6 +52,10 @@ section {
 
 [class*='fadein'], [class*='pop'] {
   opacity: 0;
+}
+
+.avatar {
+  text-align: center;
 }
 
 /* Profile */
@@ -139,7 +143,8 @@ section {
 
 .social-links {
   padding-top: 6em;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1900px;
 }
 .social-links li {
   display: inline-block;
@@ -228,7 +233,7 @@ section {
     font-size: 4em;
   }
   .strong-font {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .social-links li {
     width: 4em;
@@ -264,7 +269,7 @@ section {
     padding: 0em;
   }
   .social-links li {
-    width: 2.5em;
+    width: 3em;
   }
   .copyright {
     margin-top: 17em;
@@ -272,6 +277,12 @@ section {
   }
   .footer {
     height: 28em;
+  }
+  .social-links .offset-2{
+    margin-left: 0px;
+  }
+  .social-links-container {
+    padding: 0 6%;
   }
 }
 
@@ -289,10 +300,10 @@ section {
     padding-top: 5em;
   }
   .social-links li {
-    width: 1.7em;
+    width: 2em;
   }
   .copyright {
-    margin-top: 20em;
+    margin-top: 130px;
     font-size: 0.7em;
   }
   .social-links-container {
@@ -314,17 +325,27 @@ section {
   .question {
     padding: 0px;
   }
+  .footer {
+    height: 300px;
+    margin-top: 50px;
+  }
+  .social-links .offset-2{
+    margin-left: 0px;
+  }
+  .social-links-container {
+    padding: 0 6%;
+  }
 }
 
 @media only screen and (max-width: 376px) {
   body {
-    margin-bottom: 500px;
+    margin-bottom: 270px;
   }
   .header-font {
-    font-size: 4.5vw;
+    font-size: 2.7vh;
   }
   .strong-font {
-    font-size: 3.5vw;
+    font-size: 2.4vh;
   }
   .show-extra-info {
     line-height: 0px;
@@ -346,16 +367,16 @@ section {
     margin-top: 5vw;
   }
   section .row {
-    margin-top: 2vw!important;
+    margin-top: 1.7vh!important;
   }
   section.qa .row {
     margin-top: 0vw!important;
   }
   .social-links li {
-    width: 6.7vw;
+    width: 7vw;
   }
   .copyright {
-    margin-top: 6em;
+    margin-top: 85px;
     font-size: 3vw;
   }
   .social-links-container {
@@ -367,5 +388,14 @@ section {
     position: absolute;
     bottom: 0;
     width: 100%;
+  }
+  .social-links {
+    padding-top: 75px;
+  }
+  .social-links .offset-2{
+    margin-left: 0px;
+  }
+  .social-links-container {
+    padding: 0 5.7%;
   }
 }

@@ -176,6 +176,9 @@ section {
 .social-links .linkedin {
   background-color: rgb(0, 119, 181);
 }
+.social-links .google-scholar {
+  background-color: rgb(77, 143, 254);
+}
 .social-links .quora {
   background-color: rgb(185, 43, 39);
 }
@@ -207,6 +210,21 @@ section {
 .answer {
   display: none;
   opacity: 0;
+}
+
+/* Publications */
+img.pub-small {
+  width: 7em;
+}
+
+.publication {
+  font-size: 0.50em;
+}
+.publication .pub-title {
+  font-size: 1.2em;
+}
+.publication .me, .publication .pub-status {
+  color: rgba(0, 86, 179);
 }
 
 /* Footer */

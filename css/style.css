@@ -17,7 +17,7 @@ body {
   padding: 0% 10em;
   opacity: 1;
   font-family: Helvetica, Arial, sans-serif;
-  word-spacing: 5px;
+  word-spacing: 4px;
 }
 
 .header-font {
@@ -261,6 +261,9 @@ img.pub-small {
 }
 
 @media only screen and (min-width: 772px) and (max-width: 992px) {
+  .container {
+    word-spacing: 0px;
+  }
   .header-font {
     font-size: 4em;
   }
@@ -279,6 +282,9 @@ img.pub-small {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 772px) {
+  .container {
+    word-spacing: 0px;
+  }
   .header-font {
     font-size: 3.1em;
   }
@@ -307,6 +313,12 @@ img.pub-small {
 }
 
 @media only screen and (min-width: 376px) and (max-width: 576px) {
+  .container {
+    word-spacing: 0px;
+  }
+  img.pub-small {
+    width: 6em;
+  }
   .header-font {
     font-size: 5vw;
   }
@@ -342,6 +354,9 @@ img.pub-small {
   section.qa .row {
     margin-top: 0vw!important;
   }
+  section.qa .publication {
+    margin-top: 2vw!important;
+  }
   .question {
     padding: 0px;
   }
@@ -358,6 +373,12 @@ img.pub-small {
 }
 
 @media only screen and (max-width: 376px) {
+  .container {
+    word-spacing: 0px;
+  }
+  img.pub-small {
+    width: 5em;
+  }
   .header-font {
     font-size: 2.7vh;
   }
@@ -378,7 +399,6 @@ img.pub-small {
   }
   .container {
     padding: 0em 2vw;
-    word-spacing: 2px;
   }
   section {
     margin-top: 5vw;
@@ -388,6 +408,9 @@ img.pub-small {
   }
   section.qa .row {
     margin-top: 0vw!important;
+  }
+  section.qa .publication {
+    margin-top: 1.7vh!important;
   }
   .social-links li {
     width: 7vw;

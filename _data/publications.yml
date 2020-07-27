@@ -1,0 +1,24 @@
+- year: 2020
+  papers:
+    - title: "audino: A Modern Annotation Tool for Audio and Speech"
+      authors: <b>Manraj Singh Grover</b>, Pakhi Bamdev, Yaman Kumar, Mika Hama, Rajiv Ratn Shah
+      publication: ArXiv preprint, 2020 (Under review)
+      url: https://arxiv.org/abs/2006.05236
+
+    - title: "Multi-modal Automated Speech Scoring using Attention Fusion"
+      authors: <b>Manraj Singh Grover</b>, Yaman Kumar, Sumit Sarin, Payman Vafaee, Mika Hama, Rajiv Ratn Shah
+      publication: ArXiv preprint, 2020 (Work in progress)
+      url: https://arxiv.org/abs/2005.08182
+      
+    - title: A hitchhiker's guide on distributed training of deep neural networks
+      authors: Karanbir Singh Chahal, <b>Manraj Singh Grover</b>, Kuntal Dey, Rajiv Ratn Shah
+      publication: Journal of Parallel and Distributed Computing
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0743731518308712
+
+- year: 2019
+  papers:
+    - title: "Text2FaceGAN: Face Generation from Fine Grained Textual Descriptions"
+      authors: Osaid Rehman Nasir, Shailesh Kumar Jha, <b>Manraj Singh Grover</b>, Yi Yu, Ajit Kumar, Rajiv Ratn Shah
+      publication: IEEE Fifth International Conference on Multimedia Big Data (BigMM)
+      url: https://ieeexplore.ieee.org/abstract/document/8919389/
+      code: https://github.com/midas-research/text2facegan

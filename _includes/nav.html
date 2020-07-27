@@ -1,0 +1,29 @@
+<nav class="nav">
+    <ul class="list">
+        {% if page.title != "Home" %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/">Home</a>
+        </li>
+        {% endif %}
+
+        {% if site.about == true %}
+        {% if page.title != "About" %}
+        <li class="item">
+            <a class="link" href="{{ site.url }}/about">About</a>
+        </li>
+        {% endif %}
+        {% endif %}
+
+        <li class="item">
+            <a class="link" href="{{ site.url }}/blog/">Blog</a>
+        </li>
+
+        {% if site.resume == true %}
+        <li class="item">
+            <a class="link"
+                href="{{ site.url }}/{{ site.resume-url }}"
+                target="_blank">CV</a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>

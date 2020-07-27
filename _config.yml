@@ -1,0 +1,71 @@
+# main text of home
+name: Manraj Singh Grover
+bio: Research Assistant at IIIT Delhi, India
+
+# twitter summary info
+description: Manraj Singh Grover is a Software Engineer, an Open Source Enthusiast and a budding researcher. He has greatly contributed to organizations like TensorFlow, DuckDuckGo and Mozilla.
+
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
+full-picture: assets/images/full-profile.jpg
+
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-url: cv/Manraj Singh Grover.pdf
+
+url: https://manrajsingh.in
+
+# To enable google analytics, supply your token below
+analytics-google: 'UA-69242774-3'
+
+# if you don't have any of social below, comment the line
+twitter: manrajsgrover
+github: manrajgrover
+googlescholar: 33le3NEAAAAJ
+linkedin: manrajsinghgrover
+email: manrajsinghgrover@gmail.com
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+# blog: true
+
+# do you want some animations?
+animation: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+
+jekyll-mentions:
+  base_url: https://github.com
+
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
+exclude:
+  [
+    "travis.sh",
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "node_modules",
+    "vendor",
+  ]

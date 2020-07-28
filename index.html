@@ -38,23 +38,23 @@ title: Home
     <p>{{ paper.authors }} <br/> <em>{{ paper.publication }}</em></p>
     <div class="page-tags">
         {% if paper.url %}
-        <a class="item" href="{{ paper.url }}">PDF</a>
+        <a class="item" href="{{ paper.url }}" target="_blank">PDF</a>
         {% endif %}
 
         {% if paper.code %}
-        <a class="item" href="{{ paper.code }}">Code</a>
+        <a class="item" href="{{ paper.code }}" target="_blank">Code</a>
         {% endif %}
 
         {% if paper.blog %}
-        <a class="item" href="{{ paper.blog }}">Blog</a>
+        <a class="item" href="{{ paper.blog }}" target="_blank">Blog</a>
         {% endif %}
 
         {% if paper.slides %}
-        <a class="item" href="{{ paper.slides }}">Slides</a>
+        <a class="item" href="{{ paper.slides }}" target="_blank">Slides</a>
         {% endif %}
 
         {% if paper.poster %}
-        <a class="item" href="{{ paper.poster }}">Poster</a>
+        <a class="item" href="{{ paper.poster }}" target="_blank">Poster</a>
         {% endif %}
     </div>
     

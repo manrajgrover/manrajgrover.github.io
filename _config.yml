@@ -17,6 +17,7 @@ resume: true
 resume-url: cv/Manraj Singh Grover.pdf
 
 url: https://manrajsingh.in
+repository: manrajgrover/manrajgrover.github.io
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-69242774-3'

@@ -1,3 +1,6 @@
+- url: https://github.com/tensorflow/tfjs
+  title: "🛠 TensorFlow.js: JS library for machine learning"
+
 - url: https://github.com/midas-research/audino
   title: "🎵 audino: Audio annotation tool for humans™"
   stars: 650

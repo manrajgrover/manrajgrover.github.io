@@ -14,9 +14,11 @@ title: Home
     {% for project in site.data.opensource %}
     <div class="item">
         <a class="url" href="{{ project.url }}" target="_blank">
+            {% if project.stars %}
             <aside>
                 {{ project.stars }} <i class="fa fa-star"></i>
             </aside>
+            {% endif %}
             <h3 class="title">
                 {{ project.title }}
             </h3>

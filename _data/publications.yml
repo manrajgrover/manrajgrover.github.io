@@ -1,5 +1,9 @@
 - year: 2020
   papers:
+    - title: "Classification, Regression or Ordinal Regression? Assessing oral proficiency of non-native English speakers and interpreting results"
+      authors: Pakhi Bamdev, <b>Manraj Singh Grover</b>, Yaman Kumar, Payman Vafaee, Mika Hama, Rajiv Ratn Shah
+      publication: 15th Women in Machine Learning Workshop (WiML 2020 @ NeurIPS 2020)
+
     - title: "audino: A Modern Annotation Tool for Audio and Speech"
       authors: <b>Manraj Singh Grover</b>, Pakhi Bamdev, Yaman Kumar, Mika Hama, Rajiv Ratn Shah
       publication: ArXiv preprint, 2020 (Under review)
@@ -8,7 +12,7 @@
 
     - title: "Multi-modal Automated Speech Scoring using Attention Fusion"
       authors: <b>Manraj Singh Grover</b>, Yaman Kumar, Sumit Sarin, Payman Vafaee, Mika Hama, Rajiv Ratn Shah
-      publication: ArXiv preprint, 2020 (Work in progress)
+      publication: ArXiv preprint, 2020 (Under Review)
       url: https://arxiv.org/abs/2005.08182
       
     - title: A hitchhiker's guide on distributed training of deep neural networks

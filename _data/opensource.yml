@@ -1,14 +1,14 @@
 - url: https://github.com/tensorflow/tfjs
   title: "🛠 TensorFlow.js: JS library for machine learning"
-  stars: 16.1k
+  stars: 16.9k
 
 - url: https://github.com/midas-research/audino
   title: "🎵 audino: Audio annotation tool for humans™"
-  stars: 860
+  stars: 923
 
 - url: https://github.com/manrajgrover/halo
   title: "💫 halo: Beautiful spinners for Python"
-  stars: 2.6k
+  stars: 2.7k
 
 - url: https://github.com/manrajgrover/SingleDivProject
   title: "☝️ SingleDivProject: One &lt;div&gt;. Many possibilities."
@@ -20,4 +20,4 @@
 
 - url: https://github.com/manrajgrover/algorithms-js
   title: "👨‍💻 algorithms-js: Data Structures and Algorithms in JS"
-  stars: 171
+  stars: 182

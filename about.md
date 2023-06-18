@@ -4,7 +4,7 @@ layout: page
 ---
 ![{{ site.name }}]({% if site.full-picture %}{{ site.url }}/{{ site.full-picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-I'm a Software Engineer at <a href="https://media.net" target="_blank" class="link">Media.net</a>, building intelligent throttling systems for network path optimization.
+I'm a Software Engineer at <a href="https://media.net" target="_blank" class="link">Media.net</a>, building intelligent traffic throttling systems.
 
 I was a Senior Software Engineer at <a href="https://practo.com/" target="_blank" class="link">Practo</a>, solving healthcare domain problems. I worked with the data science team, which interested me in Machine Learning. I have been teaching myself about its practical and research aspects ever since.
 

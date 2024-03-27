@@ -6,7 +6,7 @@ layout: page
 
 I currently serve as a Software Engineer at <a href="https://media.net" target="_blank" class="link">Media.net</a>, where my focus lies in developing intelligent traffic throttling systems.
 
-Prior to joining Media.net, I held the role of Research Associate at MIDAS Lab, IIIT Delhi, delving into the automation of grading systems for speech and text responses. Notably, I spearheaded the development of an end-to-end pipeline catering to a prominent company's recruitment process, assessing candidates' L2 English skills.
+Prior to joining Media.net, I held the role of Research Associate at <a href="https://midas.iiitd.ac.in/" target="_blank" class="link">MIDAS Lab, IIIT Delhi</a>, delving into the automation of grading systems for speech and text responses. Notably, I spearheaded the development of an end-to-end pipeline catering to a prominent company's recruitment process, assessing candidates' L2 English skills.
 
 Previously, my tenure as a Senior Software Engineer at <a href="https://practo.com/" target="_blank" class="link">Practo</a> involved addressing challenges within the healthcare domain. Collaborating closely with the data science team sparked my interest in Machine Learning, leading me to pursue self-directed learning in its practical and research facets.
 

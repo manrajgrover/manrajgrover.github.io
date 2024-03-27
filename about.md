@@ -19,7 +19,3 @@ For further insights into my journey and experiences, please visit my <a href="{
 <section class="list">
     {% include social-links.html %}
 </section>
-
-<section class="list">
-    {% include social-links.html %}
-</section>
